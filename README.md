@@ -24,7 +24,7 @@ To get started with ReplyPilot, follow these steps:
    ```bash
    git clone https://github.com/Romamo/replypilot.git
    cd replypilot
-   '''
+   ```
 
 2. **Install dependencies**: Ensure you have pip and virtualenv installed. Then create a virtual environment and install the dependencies:
    ```bash
