@@ -4,7 +4,7 @@ from django.conf import settings
 
 from reviews.services.exceptions import RateLimitError
 
-openai.api_key = settings.OPENAI_KEY
+openai.api_key = settings.OPENAI_API_KEY
 
 
 def openai_api_calculate_cost(usage, model="gpt-3.5-turbo-instruct"):

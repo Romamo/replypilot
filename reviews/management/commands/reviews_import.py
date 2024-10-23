@@ -19,7 +19,7 @@ from apps.models import App
 from reviews.models import Review
 from reviews.services.publisher import AndroidPublisherService
 
-openai.api_key = settings.OPENAI_KEY
+openai.api_key = settings.OPENAI_API_KEY
 
 
 class Command(BaseCommand):

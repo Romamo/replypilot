@@ -6,7 +6,7 @@ from reviews.models import Review
 from reviews.services.exceptions import RateLimitError
 from reviews.services.generator import ReplyGenerator
 
-openai.api_key = settings.OPENAI_KEY
+openai.api_key = settings.OPENAI_API_KEY
 
 
 class Command(BaseCommand):
