@@ -1,0 +1,14 @@
+Django==4.2.11
+django-environ
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+openai
+pycountry
+langdetect
+
+django-allauth
+
+# apps
+beautifulsoup4
